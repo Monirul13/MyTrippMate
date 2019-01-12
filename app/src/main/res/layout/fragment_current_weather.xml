@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context="com.example.rana.mytrippmate.CurrentWeatherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/temp_TV_id"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17.0* C"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/date_TV_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23/12/2018"
+                android:textSize="25sp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+            <TextView
+                android:id="@+id/day_TV_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunday"
+                android:textSize="25sp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+            <TextView
+                android:id="@+id/city_TV_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka"
+                android:textSize="25sp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/weatherImageview_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/appicon" />
+
+            <TextView
+                android:id="@+id/weather_desc_TV_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dummy" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/child_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="21dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min"
+                style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+            <TextView
+                android:id="@+id/minTemp_TV_id"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17.0* C "
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max"
+                style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+            <TextView
+                android:id="@+id/maxTemp_TV_id"
+                android:layout_gravity="center"
+                android:text="17.0* C "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/child_background"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunrise"
+                android:layout_marginTop="17dp"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/sunrise_TV_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:09:24AM"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunset"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/sunset_TV_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05:45:17PM"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/child_background"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Humidity"
+                android:textSize="20sp" />
+
+            <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/humidity_TV_id"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="86%"
+            android:textSize="20sp" />
+
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Pressure"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@+id/pressure_TV_id"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1021.71 hPa"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

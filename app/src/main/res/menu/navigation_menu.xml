@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Weather">
+        <menu>
+            <item
+                android:id="@+id/nav_weatherReport_id"
+                android:icon="@drawable/ic_weather"
+                android:title="Weather Report">
+
+            </item>
+        </menu>
+
+    </item>
+
+
+   <item android:title="Location">
+       <menu>
+           <item
+               android:id="@+id/nav_map_id"
+               android:icon="@drawable/ic_map"
+               android:title="Map"></item>
+
+           <item
+               android:id="@+id/nav_nearby_id"
+               android:icon="@drawable/ic_nearby"
+               android:title="Near By"></item>
+
+       </menu>
+
+   </item>
+
+
+</menu>

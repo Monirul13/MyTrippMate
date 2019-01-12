@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20b2aa"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.rana.mytrippmate.Event_List_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/logoutButton_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#6495ed"
+        android:text="Logout"
+        android:layout_marginEnd="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/event_list_Rview_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    
+    
+    
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@android:drawable/ic_input_add"/>
+
+
+</RelativeLayout>

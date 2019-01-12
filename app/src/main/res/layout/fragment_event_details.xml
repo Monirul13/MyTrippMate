@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20b2aa"
+    tools:context="com.example.rana.mytrippmate.EventDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/eventNameTv"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/eventBudgetTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/init_progress_TV_id"
+            android:layout_weight="1"
+            android:text="0%"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/budget_progressBar_id"
+            android:layout_weight="7.5"
+            android:progressTint="#3cb371"
+            android:progressBackgroundTint="#fff"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:text="100%"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/expandableListView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ExpandableListView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/eventDestinationTv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/eventStartingLocationTV"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/departureTimeTV"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25sp" />-->
+
+
+
+
+</LinearLayout>

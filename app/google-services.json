@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "181022906163",
+    "firebase_url": "https://mytrippmate-project.firebaseio.com",
+    "project_id": "mytrippmate-project",
+    "storage_bucket": "mytrippmate-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181022906163:android:4be1988c971581e1",
+        "android_client_info": {
+          "package_name": "com.example.rana.mytrippmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181022906163-7j51dsrsof4l6mn39dvfgi5k81o3db8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rana.mytrippmate",
+            "certificate_hash": "722ddb732077075f7b92d0bf6ce07956f85c305f"
+          }
+        },
+        {
+          "client_id": "181022906163-gmn4ol7b6dqmpeu69ml3k50vmv73dft3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBplJ33ggPz3TFK0GYj-_xX_6FVb_kbEc8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181022906163-gmn4ol7b6dqmpeu69ml3k50vmv73dft3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
